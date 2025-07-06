@@ -33,6 +33,7 @@ class HomePage extends StatelessWidget {
                   // snackbar
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
+                      duration: Duration(seconds: 1),
                       content: Row(
                         children: [
                           Icon(Icons.home, color: Colors.white),
@@ -59,6 +60,7 @@ class HomePage extends StatelessWidget {
                   // snackbar
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
+                      duration: Duration(seconds: 1),
                         content: Row(
                           children: [
                             Icon(Icons.cabin, color: Colors.white),
