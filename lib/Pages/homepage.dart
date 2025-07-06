@@ -1,6 +1,7 @@
 import 'package:drawer_mitch/Pages/first_page.dart';
 import 'package:drawer_mitch/Pages/second_page.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -40,7 +41,9 @@ class HomePage extends StatelessWidget {
                           const SizedBox(width: 24),
                           Text(
                             "You are in the first page",
-                            style: TextStyle(fontSize: 25),
+                            style:GoogleFonts.lato(
+                              fontSize: 25
+                            )
                           ),
                         ],
                       ),
@@ -67,9 +70,11 @@ class HomePage extends StatelessWidget {
                             const SizedBox(width: 24),
                             Text(
                               "You are in the second page",
-                              style: TextStyle(fontSize: 25),
-                            ),
-                          ],
+                              style: GoogleFonts.lato(
+                                fontSize: 25,
+                              ),
+                            )
+                          ]
                         ),
                   ));
                 },
