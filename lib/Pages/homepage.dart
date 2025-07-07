@@ -41,9 +41,7 @@ class HomePage extends StatelessWidget {
                           const SizedBox(width: 24),
                           Text(
                             "You are in the first page",
-                            style:GoogleFonts.lato(
-                              fontSize: 25
-                            )
+                            style: GoogleFonts.lato(fontSize: 25),
                           ),
                         ],
                       ),
@@ -64,19 +62,18 @@ class HomePage extends StatelessWidget {
                   ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(
                       duration: Duration(seconds: 1),
-                        content: Row(
-                          children: [
-                            Icon(Icons.cabin, color: Colors.white),
-                            const SizedBox(width: 24),
-                            Text(
-                              "You are in the second page",
-                              style: GoogleFonts.lato(
-                                fontSize: 25,
-                              ),
-                            )
-                          ]
-                        ),
-                  ));
+                      content: Row(
+                        children: [
+                          Icon(Icons.cabin, color: Colors.white),
+                          const SizedBox(width: 24),
+                          Text(
+                            "You are in the second page",
+                            style: GoogleFonts.lato(fontSize: 25),
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
                 },
               ),
             ],
